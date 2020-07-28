@@ -1,0 +1,125 @@
+@media print {
+    body {
+        background: none repeat scroll 0 0 white;
+        color: black;
+        margin: 0;
+        float: none;
+        font-size: 12pt;
+    }
+
+    /* Don't show navigation, social icons, search, breadcrumbs, edit link or title area */
+    .nav-primary, .header-widget-area, .sidebar, .breadcrumb,
+    .share-before, .post-edit-link, div.title-area, .log-in-out {
+        display: none;
+    }
+
+    /*  Show the logo before the content  */
+    main.content:before {
+        content: url(../../../uploads/2019/08/favicon.png);
+        display: block;
+        margin-top: 65px;
+    }
+
+    /* Underline links */
+    body a {
+        text-decoration: underline;
+    }
+
+    /* Reduce the space after each entry - particularly for Blog page */
+    body .entry,
+    body .page.page-template-page_blog-php .entry {
+        border-bottom: 1px dotted #ddd;
+        padding-bottom: 0;
+        margin-bottom: 1rem;
+    }
+
+    /* Put link URL after the link text */
+    article.entry a:after {
+        content: " (" attr(href) ") ";
+        font-size: .8em;
+        font-weight: normal;
+    }
+
+    /* No link URLs here */
+    span.entry-comments-link a:after, span.entry-categories a:after, span.entry-tags a:after {
+        content: "";
+    }
+
+    a.entry-author-link:after {
+        content: "" !important;
+    }
+
+    p.site-title a:after, a.comment-author-link:after, time.comment-time a:after {
+        content: "";
+    }
+
+    .entry-comments, .entry-comments .comment, .entry-comments .comment-reply, .ping-list {
+        margin-bottom: 1rem !important;
+    }
+
+    a.comment-reply-link {
+        display: none;
+    }
+
+    #simple-social-icons-2 {
+        display: none;
+    }
+
+    /* move the content up */
+    .site-inner {
+        margin-top: -17rem;
+    }
+
+    /* widen content out to 100% */
+    main.content {
+        width: 100%;
+    }
+
+    /* Hide the header widget area */
+    aside.widget-area.header-widget-area {
+        display: none;
+    }
+
+    /* Avoid page breaks within images */
+    img {
+        page-break-before: auto;
+        page-break-after: auto;
+        page-break-inside: avoid;
+    }
+
+    /* Hide simple share buttons and the Leave a reply box */
+    div#share-before-1285, div#respond {
+        display: none;
+    }
+
+    /* Hide related posts */
+    div#jp-relatedposts {
+        display: none !important;
+    }
+
+    /* Hide Before Footer Section */
+    .before-footer {
+        display: none;
+    }
+
+    /* Hide footer widgets, go to top link & after footer areas */
+    .footer-widgets,
+    a.back-to-top {
+        display: none;
+    }
+
+    div.creds {
+        color: black;
+    }
+
+    /* No borders for footer */
+    footer.site-footer {
+        border-top: none;
+        border-bottom: none;
+    }
+
+    /* Blue link for footer */
+    footer.site-footer a {
+        color: #0A5FAF;
+    }
+}
