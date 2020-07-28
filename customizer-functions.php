@@ -1,14 +1,14 @@
 <?php
 /**
- * Plugin Name: Business Pro Theme Customizer Plugin
- * Description: Business Pro child theme customizer built as a plugin.
+ * Plugin Name: Genesis Business Pro Theme Customizer Plugin
+ * Description: Genesis Business Pro child theme customizer built as a plugin.
  * Author: Quinton Jones
  * Author URI: https://github.com/qjones3
  * Version: 1.0
  *
- * Custom functions for the Business Pro child theme
+ * Custom functions for the Genesis Business Pro child theme
  *
- * This file includes custom functions for the Business Pro child theme.
+ * This file includes custom functions for the Genesis Business Pro child theme.
  *
  * @since 0.0.1
  * @package BusinessProTheme
