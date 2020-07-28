@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Genesis Business Pro Theme Customizer Plugin
+ * Plugin Name: Genesis Business Pro Theme Customizer
  * Description: Genesis Business Pro child theme customizer built as a plugin.
  * Author: Quinton Jones
  * Author URI: https://github.com/qjones3
